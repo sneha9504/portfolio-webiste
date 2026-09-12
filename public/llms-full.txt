@@ -138,10 +138,10 @@ React, Next.js, JavaScript, TypeScript, Node.js, Express.js, MongoDB, MySQL, Tai
 
 ## Contact
 
-- Email: hello@sneha.dev
+- Email: [EMAIL_ADDRESS]
 - Website: https://sneha.dev
-- GitHub: https://github.com/
-- LinkedIn: https://linkedin.com/
+- GitHub: https://github.com/sneha9504
+- LinkedIn: https://www.linkedin.com/in/snehawani/
 
 ---
 

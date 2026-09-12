@@ -58,8 +58,11 @@ const jsonLd = {
       name: "Sneha Wani",
       url: "https://sneha.dev",
       jobTitle: "Full-Stack Developer",
-      email: "hello@sneha.dev",
-      sameAs: ["https://github.com/", "https://linkedin.com/"],
+      email: "[EMAIL_ADDRESS]",
+      sameAs: [
+        "https://github.com/sneha9504",
+        "https://www.linkedin.com/in/snehawani/",
+      ],
       knowsAbout: [
         "React",
         "Next.js",

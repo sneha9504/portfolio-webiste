@@ -20,9 +20,9 @@ export const site = {
   url: "https://sneha.dev",
   brand: { first: "SNEHA", suffix: ".DEV" },
   role: "Full-Stack Developer",
-  email: "hello@sneha.dev",
-  github: "https://github.com/",
-  linkedin: "https://linkedin.com/",
+  email: "[EMAIL_ADDRESS]",
+  github: "https://github.com/sneha9504",
+  linkedin: "https://www.linkedin.com/in/snehawani/",
   tagline:
     "I am Sneha Wani, a Full-Stack Developer building modern, scalable, and high-performance web applications.",
 };
