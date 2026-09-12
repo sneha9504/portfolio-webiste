@@ -1,0 +1,159 @@
+# Sneha Wani — Full-Stack Developer (Complete Profile)
+
+> I am Sneha Wani, a Full-Stack Developer building modern, scalable, and high-performance web applications.
+
+## About
+
+Sneha Wani is a Full-Stack Developer who transforms ideas into functional, user-friendly digital products. She works across the entire stack — designing interfaces that feel effortless, building backend systems that hold up under load, and deploying applications people can rely on.
+
+Most of her work starts with a conversation rather than a component. Understanding who the product is for, and what success actually looks like, tends to save far more time than any framework choice. From there she plans the architecture, builds in small reviewable pieces, and keeps performance and accessibility in the loop from day one instead of bolting them on at the end.
+
+Outside of client work she is usually reading through release notes, rebuilding something she has already built to see if she can do it better, or helping someone else get unstuck.
+
+### Traits
+
+- Problem Solver — Enjoys solving real-world problems through code.
+- Continuous Learner — Always exploring new technologies and patterns.
+- User Focused — Builds with the end user in mind, not just the spec.
+- Open to Opportunities — Available for full-time roles and freelance projects.
+
+### Stats
+
+- 10+ Projects Completed
+- 5+ Happy Clients
+- 2+ Years of Experience
+
+---
+
+## Skills
+
+### Frontend
+Interfaces that stay fast, accessible and pleasant to use.
+- React (92%)
+- Next.js (88%)
+- TypeScript (85%)
+- JavaScript (90%)
+- Tailwind CSS (90%)
+
+### Backend
+APIs and services designed to scale without surprises.
+- Node.js (87%)
+- Express.js (85%)
+- REST APIs (88%)
+- Authentication (80%)
+
+### Databases
+Schemas and queries tuned for the access patterns that matter.
+- MongoDB (86%)
+- MySQL (80%)
+- Mongoose (84%)
+- Data Modelling (78%)
+
+### Tooling & Deployment
+Ship it, measure it, keep it healthy.
+- Git & GitHub (90%)
+- Vercel (88%)
+- CI basics (75%)
+- Testing (74%)
+
+---
+
+## Services
+
+### Custom Website Development
+Modern, responsive websites tailored to your business.
+Deliverables: Responsive design build, SEO-ready markup, CMS or content hand-off.
+
+### Full-Stack Web Applications
+End-to-end development including frontend, backend, APIs, and databases.
+Deliverables: Product architecture, API + database layer, Auth and roles.
+
+### Frontend Development
+Interactive and responsive interfaces using modern technologies.
+Deliverables: Component library, State management, Accessibility pass.
+
+### Website Redesign
+Transform outdated websites into modern, high-performing experiences.
+Deliverables: UX audit, Visual refresh, Performance tuning.
+
+### Backend & API Development
+Robust internal systems, clean database architecture, payment integrations and logistics.
+Deliverables: REST API design, Database modelling, Deployment setup.
+
+### Performance & SEO Optimization
+Speed up your website, optimize for search engines, and improve the browsing experience.
+Deliverables: Core Web Vitals audit, SEO markup & meta, Image & bundle optimization.
+
+---
+
+## Projects
+
+### Jira Dashboard Clone (2026) — Full Stack
+A full-featured project management dashboard with kanban boards, sprint tracking, and real-time team collaboration.
+Technologies: React, Node.js, MongoDB.
+
+### Portfolio Website (2025) — Frontend
+A stunning developer portfolio with glassmorphism design, smooth animations, and fully responsive layout.
+Technologies: Next.js, Tailwind CSS, TypeScript.
+
+### Quiz Application (2025) — Full Stack
+An interactive quiz platform with timed questions, score tracking, leaderboards and category filtering.
+Technologies: React, Express.js, MongoDB.
+
+---
+
+## Process
+
+Sneha follows a five-stage process for every project, scaled to fit its size:
+
+1. **Discover** — Understand goals, users and requirements before writing code.
+2. **Plan** — Create the architecture, data model and delivery strategy.
+3. **Design & Build** — Develop the product with modern, maintainable technologies.
+4. **Test** — Ensure quality, performance and responsiveness across devices.
+5. **Launch** — Deploy, monitor and support your product after release.
+
+---
+
+## Experience
+
+### 2025 — Present: Freelance Full-Stack Developer (Self-employed)
+Designing and shipping web applications for startups and small businesses, owning everything from data model to deployment.
+Stack: Next.js, Node.js, MongoDB, Vercel.
+
+### 2024 — 2025: Full-Stack Developer (Client projects)
+Built production dashboards and e-commerce experiences, introduced component libraries and improved page performance.
+Stack: React, Express.js, MySQL.
+
+### 2023 — 2024: Frontend Developer (Early projects)
+Focused on responsive interfaces, accessibility and translating design files into reusable components.
+Stack: JavaScript, React, Tailwind CSS.
+
+---
+
+## Technologies
+
+React, Next.js, JavaScript, TypeScript, Node.js, Express.js, MongoDB, MySQL, Tailwind CSS, Git, GitHub, Vercel.
+
+---
+
+## Contact
+
+- Email: hello@sneha.dev
+- Website: https://sneha.dev
+- GitHub: https://github.com/
+- LinkedIn: https://linkedin.com/
+
+---
+
+## Site Pages
+
+- Home: https://sneha.dev
+- About: https://sneha.dev/about
+- Skills: https://sneha.dev/skills
+- Projects: https://sneha.dev/projects
+- Services: https://sneha.dev/services
+- Experience: https://sneha.dev/experience
+- Contact: https://sneha.dev/contact
+- RSS Feed: https://sneha.dev/feed.xml
+- Sitemap: https://sneha.dev/sitemap.xml
+- LLMs Summary: https://sneha.dev/llms.txt

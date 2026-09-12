@@ -1,0 +1,42 @@
+# Sneha Wani — Full-Stack Developer
+
+> I am Sneha Wani, a Full-Stack Developer building modern, scalable, and high-performance web applications.
+
+## About
+
+Sneha Wani is a Full-Stack Developer who transforms ideas into functional, user-friendly digital products. She works across the entire stack — designing interfaces, building backend systems, and deploying reliable applications.
+
+## Skills
+
+- Frontend: React, Next.js, TypeScript, JavaScript, Tailwind CSS
+- Backend: Node.js, Express.js, REST APIs, Authentication
+- Databases: MongoDB, MySQL, Mongoose, Data Modelling
+- Tooling & Deployment: Git & GitHub, Vercel, CI basics, Testing
+
+## Services
+
+- Custom Website Development
+- Full-Stack Web Applications
+- Frontend Development
+- Website Redesign
+- Backend & API Development
+- Performance & SEO Optimization
+
+## Projects
+
+- Jira Dashboard Clone — Full-featured project management dashboard with kanban boards, sprint tracking, and real-time collaboration (React, Node.js, MongoDB)
+- Portfolio Website — Developer portfolio with glassmorphism design, animations, and responsive layout (Next.js, Tailwind CSS, TypeScript)
+- Quiz Application — Interactive quiz platform with timed questions, score tracking, and leaderboards (React, Express.js, MongoDB)
+
+## Contact
+
+- Email: hello@sneha.dev
+- Website: https://sneha.dev
+- GitHub: https://github.com/
+- LinkedIn: https://linkedin.com/
+
+## Links
+
+- Full details: https://sneha.dev/llms-full.txt
+- RSS feed: https://sneha.dev/feed.xml
+- Sitemap: https://sneha.dev/sitemap.xml

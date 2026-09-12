@@ -19,6 +19,7 @@ import {
 
 export const site = {
   name: "Sneha Wani",
+  url: "https://sneha.dev",
   brand: { first: "SNEHA", suffix: ".DEV" },
   role: "Full-Stack Developer",
   email: "hello@sneha.dev",
