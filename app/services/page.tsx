@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
-import { CtaBand, PageHeader, PageShell, Section, SectionHeading } from "@/components/site/page-shell";
+import { CtaBand, PageShell, Section, SectionHeading } from "@/components/site/page-shell";
+import { ServicesSection } from "@/components/site/services-section";
 import { Button } from "@/components/ui/button";
-import { services } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Full-stack web development services by Sneha Wani — custom websites, web applications, frontend builds, redesigns and API development.",
+    "Full-stack web development services by Sneha Wani — custom websites, web applications, frontend builds, redesigns, API development, and performance optimization.",
 };
 
 const engagement = [
@@ -30,57 +30,10 @@ const engagement = [
 export default function ServicesPage() {
   return (
     <PageShell>
-      <PageHeader
-        eyebrow="Services"
-        title="How I Can"
-        highlight="Help You"
-        description="I work across the whole stack, so you get one person who can take an idea from interface design through to the database and the deployment that serves it."
-      />
+      {/* Full Services section matching Figma Design 3 */}
+      <ServicesSection />
 
-      <Section>
-        <SectionHeading
-          eyebrow="What I offer"
-          title="Services in detail"
-          description="Each engagement is shaped around your product, but these are the shapes the work usually takes."
-        />
-
-        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map(({ slug, icon: Icon, title, text, deliverables }, index) => (
-            <div key={slug} className="premium-card relative flex flex-col gap-4 p-6 sm:p-7">
-              <span
-                aria-hidden="true"
-                className="absolute right-5 top-5 select-none text-[13px] font-bold tabular-nums text-muted-foreground/30"
-              >
-                {String(index + 1).padStart(2, "0")}
-              </span>
-
-              <span className="icon-tile size-11">
-                <Icon className="size-5" aria-hidden="true" />
-              </span>
-
-              <div>
-                <h3 className="pr-8 text-base font-bold leading-snug sm:text-lg">{title}</h3>
-                <p className="mt-2 text-[15px] leading-relaxed text-muted-foreground">{text}</p>
-              </div>
-
-              <div
-                aria-hidden="true"
-                className="h-px w-full bg-[linear-gradient(90deg,color-mix(in_oklab,var(--brand-pink)_35%,transparent),color-mix(in_oklab,var(--brand-purple)_35%,transparent),transparent)]"
-              />
-
-              <ul className="flex flex-col gap-2.5">
-                {deliverables.map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-[15px] text-muted-foreground">
-                    <Check className="mt-0.5 size-4 shrink-0 text-primary" aria-hidden="true" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </Section>
-
+      {/* Engagement models */}
       <Section>
         <SectionHeading
           eyebrow="Working together"

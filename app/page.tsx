@@ -15,13 +15,14 @@ import {
 import aboutPortrait from "@/public/images/about-portrait.png";
 import heroBanner from "@/public/images/hero-image.png";
 import heroWorkspace from "@/public/images/hero-workspace.png";
-import { ProjectCard } from "@/components/site/project-card";
 import { CtaBand, PageShell, Section, SectionHeading } from "@/components/site/page-shell";
+import { SkillsSection } from "@/components/site/skills-section";
+import { ProjectsSection } from "@/components/site/projects-section";
+import { ServicesSection } from "@/components/site/services-section";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { navItems, projects, services, site, stats, technologies } from "@/lib/site-data";
+import { navItems, site, stats } from "@/lib/site-data";
 
 const pillars = [
   { icon: Code2, label: "Frontend" },
@@ -176,23 +177,13 @@ export default function HomePage() {
       </section>
 
       <PageShell className="pt-2 sm:pt-4">
+
+      {/* ─── Skills / Technologies Section (Figma Design 1) ─── */}
       <Section>
-        <p className="eyebrow">Trusted technologies</p>
-        <ul className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-border bg-border min-[420px]:grid-cols-3 sm:grid-cols-4 lg:grid-cols-6">
-          {technologies.map((tech) => (
-            <li
-              key={tech.name}
-              className="flex h-20 flex-col items-center justify-center gap-1.5 bg-card text-center"
-            >
-              <span className={`font-display text-lg font-bold ${tech.accent}`} aria-hidden="true">
-                {tech.mark}
-              </span>
-              <span className="px-1 text-[11px] text-muted-foreground">{tech.name}</span>
-            </li>
-          ))}
-        </ul>
+        <SkillsSection />
       </Section>
 
+      {/* ─── About Me Section ─── */}
       <Section>
         <div className="grid items-center gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12">
           <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
@@ -252,56 +243,17 @@ export default function HomePage() {
         </div>
       </Section>
 
+      {/* ─── Services Section (Figma Design 3) ─── */}
       <Section>
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <SectionHeading
-            eyebrow="Services"
-            title="How I Can Help You"
-            description="From a single interface to a complete product, here is where I usually come in."
-          />
-          <Button asChild variant="ghost" size="sm">
-            <Link href="/services">
-              All services <ArrowRight />
-            </Link>
-          </Button>
-        </div>
-
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {services.slice(0, 3).map(({ icon: Icon, title, text, slug }) => (
-            <Card key={slug} className="premium-card border-0 bg-transparent shadow-none">
-              <CardContent className="p-6">
-                <span className="icon-tile size-10">
-                  <Icon className="size-5" aria-hidden="true" />
-                </span>
-                <h3 className="mt-4 text-base font-semibold">{title}</h3>
-                <p className="mt-2 text-base leading-relaxed text-muted-foreground">{text}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+        <ServicesSection />
       </Section>
 
+      {/* ─── Projects Section (Figma Design 2) ─── */}
       <Section>
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <SectionHeading
-            eyebrow="Featured projects"
-            title="Selected Work"
-            description="A few products I designed, built and shipped end to end."
-          />
-          <Button asChild variant="ghost" size="sm">
-            <Link href="/projects">
-              All projects <ArrowRight />
-            </Link>
-          </Button>
-        </div>
-
-        <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.slice(0, 3).map((project, i) => (
-            <ProjectCard key={project.title} project={project} index={i} />
-          ))}
-        </div>
+        <ProjectsSection />
       </Section>
 
+      {/* ─── Explore links ─── */}
       <Section>
         <SectionHeading
           eyebrow="Explore"
